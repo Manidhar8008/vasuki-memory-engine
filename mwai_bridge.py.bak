@@ -1,16 +1,10 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
 from contextlib import closing
 import sqlite3
 
 DB = "/data/data/com.termux/files/home/vasuki/vasuki.db"
 
 app = FastAPI(title="MW.AI Core")
-
-
-class AskRequest(BaseModel):
-    question: str
-
 
 def get_conn():
     conn = sqlite3.connect(DB)
@@ -37,28 +31,28 @@ def stats():
     with closing(get_conn()) as conn:
         cur = conn.cursor()
 
+        data = {}
+
         tables = [
             "files",
             "documents",
             "concepts",
             "memories",
-            "entities",
             "relationships",
+            "entities",
             "timeline",
             "screenshots"
         ]
 
-        out = {}
-
-        for t in tables:
+        for table in tables:
             try:
-                out[t] = cur.execute(
-                    f"SELECT COUNT(*) FROM {t}"
+                data[table] = cur.execute(
+                    f"SELECT COUNT(*) FROM {table}"
                 ).fetchone()[0]
             except:
-                out[t] = 0
+                data[table] = 0
 
-        return out
+        return data
 
 
 @app.get("/files")
@@ -66,10 +60,11 @@ def files(limit: int = 100):
 
     with closing(get_conn()) as conn:
 
-        rows = conn.execute(
-            "SELECT * FROM files LIMIT ?",
-            (limit,)
-        ).fetchall()
+        rows = conn.execute("""
+            SELECT *
+            FROM files
+            LIMIT ?
+        """, (limit,)).fetchall()
 
         return {
             "count": len(rows),
@@ -82,14 +77,14 @@ def documents(limit: int = 50):
 
     with closing(get_conn()) as conn:
 
-        rows = conn.execute(
-            """
-            SELECT title, category, chars
+        rows = conn.execute("""
+            SELECT
+                title,
+                category,
+                chars
             FROM documents
             LIMIT ?
-            """,
-            (limit,)
-        ).fetchall()
+        """, (limit,)).fetchall()
 
         return {
             "count": len(rows),
@@ -102,15 +97,12 @@ def concepts(limit: int = 100):
 
     with closing(get_conn()) as conn:
 
-        rows = conn.execute(
-            """
+        rows = conn.execute("""
             SELECT *
             FROM concepts
             ORDER BY frequency DESC
             LIMIT ?
-            """,
-            (limit,)
-        ).fetchall()
+        """, (limit,)).fetchall()
 
         return {
             "count": len(rows),
@@ -119,18 +111,15 @@ def concepts(limit: int = 100):
 
 
 @app.get("/memories")
-def memories(limit: int = 100):
+def memories(limit: int = 50):
 
     with closing(get_conn()) as conn:
 
-        rows = conn.execute(
-            """
+        rows = conn.execute("""
             SELECT *
             FROM memories
             LIMIT ?
-            """,
-            (limit,)
-        ).fetchall()
+        """, (limit,)).fetchall()
 
         return {
             "count": len(rows),
@@ -143,14 +132,11 @@ def timeline(limit: int = 100):
 
     with closing(get_conn()) as conn:
 
-        rows = conn.execute(
-            """
+        rows = conn.execute("""
             SELECT *
             FROM timeline
             LIMIT ?
-            """,
-            (limit,)
-        ).fetchall()
+        """, (limit,)).fetchall()
 
         return {
             "count": len(rows),
@@ -163,16 +149,19 @@ def photos(limit: int = 100):
 
     with closing(get_conn()) as conn:
 
-        rows = conn.execute(
-            """
+        rows = conn.execute("""
             SELECT *
             FROM files
             WHERE extension IN
-            ('.jpg','.jpeg','.png','.webp','.heic')
+            (
+                '.jpg',
+                '.jpeg',
+                '.png',
+                '.webp',
+                '.heic'
+            )
             LIMIT ?
-            """,
-            (limit,)
-        ).fetchall()
+        """, (limit,)).fetchall()
 
         return {
             "count": len(rows),
@@ -185,16 +174,17 @@ def videos(limit: int = 100):
 
     with closing(get_conn()) as conn:
 
-        rows = conn.execute(
-            """
+        rows = conn.execute("""
             SELECT *
             FROM files
             WHERE extension IN
-            ('.mp4','.mov','.mkv')
+            (
+                '.mp4',
+                '.mov',
+                '.mkv'
+            )
             LIMIT ?
-            """,
-            (limit,)
-        ).fetchall()
+        """, (limit,)).fetchall()
 
         return {
             "count": len(rows),
@@ -207,16 +197,17 @@ def audio(limit: int = 100):
 
     with closing(get_conn()) as conn:
 
-        rows = conn.execute(
-            """
+        rows = conn.execute("""
             SELECT *
             FROM files
             WHERE extension IN
-            ('.mp3','.opus','.wav')
+            (
+                '.mp3',
+                '.opus',
+                '.wav'
+            )
             LIMIT ?
-            """,
-            (limit,)
-        ).fetchall()
+        """, (limit,)).fetchall()
 
         return {
             "count": len(rows),
@@ -229,45 +220,18 @@ def search(q: str):
 
     with closing(get_conn()) as conn:
 
-        rows = conn.execute(
-            """
+        rows = conn.execute("""
             SELECT
                 title,
                 category,
-                substr(content,1,1000) AS preview
+                substr(content,1,500) AS preview
             FROM documents
             WHERE lower(content) LIKE lower(?)
             LIMIT 20
-            """,
-            (f"%{q}%",)
-        ).fetchall()
+        """, (f"%{q}%",)).fetchall()
 
         return {
             "query": q,
             "count": len(rows),
-            "results": [dict(r) for r in rows]
-        }
-
-
-@app.post("/ask")
-def ask(req: AskRequest):
-
-    with closing(get_conn()) as conn:
-
-        rows = conn.execute(
-            """
-            SELECT
-                title,
-                category,
-                substr(content,1,4000) AS preview
-            FROM documents
-            WHERE lower(content) LIKE lower(?)
-            LIMIT 5
-            """,
-            (f"%{req.question}%",)
-        ).fetchall()
-
-        return {
-            "question": req.question,
             "results": [dict(r) for r in rows]
         }
