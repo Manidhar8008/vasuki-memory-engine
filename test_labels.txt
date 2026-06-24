@@ -1,0 +1,37 @@
+VID-20260609-WA0206.mp4
+→ SCREEN_RECORDING
+→ PERSONAL
+
+Resume_2026.pdf
+→ JOB_HUNT
+→ DOCUMENT
+
+agent_architecture.png
+→ AI_PROJECT
+→ RESEARCH
+
+Psychology_Notes.pdf
+→ PSYCHOLOGY
+→ STUDY
+
+Yoga_Routine.mp4
+→ HEALTH
+→ YOGA
+
+SQL_CheatSheet.pdf
+→ DATA_ANALYTICS
+→ STUDY
+
+vasuki_memory.py
+→ AI_PROJECT
+→ CODE
+
+LinkedIn_Screenshot.png
+→ JOB_HUNT
+→ SCREENSHOT
+
+Financial_Planning.xlsx
+→ FINANCE
+
+YouTube_Script.docx
+→ CONTENT_CREATION
