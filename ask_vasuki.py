@@ -1,19 +1,80 @@
 import sqlite3
 
-conn = sqlite3.connect("vasuki.db")
-cur = conn.cursor()
+DB = "vasuki.db"
 
-query = input("Ask Vasuki: ")
+conn = sqlite3.connect(DB)
+cursor = conn.cursor()
 
-rows = cur.execute("""
-SELECT title
-FROM documents
-WHERE content LIKE ?
-LIMIT 20
-""", (f"%{query}%",)).fetchall()
+print("\n=== ASK VASUKI ===\n")
 
-for row in rows:
-    print(row[0])
+while True:
+
+    question = input("Ask> ")
+
+    if question.lower() in ["exit", "quit"]:
+        break
+
+    if "project" in question.lower():
+
+        try:
+            cursor.execute("""
+                SELECT project,
+                       COUNT(*)
+                FROM document_identity
+                GROUP BY project
+                ORDER BY COUNT(*) DESC
+                LIMIT 20
+            """)
+
+            rows = cursor.fetchall()
+
+            print("\nProjects\n")
+
+            for row in rows:
+                print(row)
+
+        except Exception as e:
+            print(e)
+
+    elif "document" in question.lower():
+
+        try:
+            cursor.execute("""
+                SELECT title
+                FROM documents
+                LIMIT 20
+            """)
+
+            rows = cursor.fetchall()
+
+            print("\nDocuments\n")
+
+            for row in rows:
+                print(row[0])
+
+        except Exception as e:
+            print(e)
+
+    elif "memory" in question.lower():
+
+        try:
+            cursor.execute("""
+                SELECT COUNT(*)
+                FROM memories
+            """)
+
+            print(
+                "\nMemories:",
+                cursor.fetchone()[0]
+            )
+
+        except Exception as e:
+            print(e)
+
+    else:
+
+        print(
+            "Try: projects, documents, memories"
+        )
 
 conn.close()
-

@@ -1,17 +1,37 @@
 import sqlite3
+import pandas as pd
 
-conn = sqlite3.connect("vasuki.db")
-cur = conn.cursor()
+DB = "vasuki.db"
 
-rows = cur.execute("""
-SELECT created_at,memory
-FROM memories
-ORDER BY created_at DESC
-LIMIT 100
-""").fetchall()
+conn = sqlite3.connect(DB)
 
 print("\n=== TIMELINE ===\n")
 
-for date,text in rows:
-    print(f"[{date}] {text[:150]}")
-    print()
+tables = pd.read_sql(
+    """
+    SELECT name
+    FROM sqlite_master
+    WHERE type='table'
+    """,
+    conn
+)
+
+available = tables["name"].tolist()
+
+if "timeline" in available:
+
+    df = pd.read_sql(
+        """
+        SELECT *
+        FROM timeline
+        LIMIT 200
+        """,
+        conn
+    )
+
+    print(df.to_string(index=False))
+
+else:
+    print("timeline table not found")
+
+conn.close()
