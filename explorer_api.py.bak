@@ -1,0 +1,224 @@
+#!/usr/bin/env python3
+
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+import sqlite3
+
+DB_PATH = "vasuki.db"
+
+app = FastAPI(
+    title="Vasuki Explorer API",
+    version="1.0.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+def get_db():
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+
+@app.get("/")
+def root():
+    return {
+        "name": "Vasuki Explorer API",
+        "status": "running"
+    }
+
+
+@app.get("/api/founder/summary")
+def founder_summary():
+
+    conn = get_db()
+    cur = conn.cursor()
+
+    stats = {
+        "documents": cur.execute(
+            "SELECT COUNT(*) FROM documents"
+        ).fetchone()[0],
+
+        "memories": cur.execute(
+            "SELECT COUNT(*) FROM memories"
+        ).fetchone()[0],
+
+        "facts": cur.execute(
+            "SELECT COUNT(*) FROM facts"
+        ).fetchone()[0],
+
+        "knowledge_assets": cur.execute(
+            "SELECT COUNT(*) FROM knowledge_assets"
+        ).fetchone()[0],
+
+        "founder_truths": cur.execute(
+            "SELECT COUNT(*) FROM founder_truths"
+        ).fetchone()[0],
+    }
+
+    conn.close()
+
+    return stats
+
+
+@app.get("/api/founder/projects")
+def projects():
+
+    conn = get_db()
+
+    rows = conn.execute("""
+        SELECT
+            object,
+            COUNT(*) as mentions
+        FROM facts
+        WHERE predicate='BUILT'
+        GROUP BY object
+        ORDER BY mentions DESC
+    """).fetchall()
+
+    conn.close()
+
+    return [dict(row) for row in rows]
+
+
+@app.get("/api/founder/skills")
+def skills():
+
+    conn = get_db()
+
+    rows = conn.execute("""
+        SELECT
+            object,
+            COUNT(*) as mentions
+        FROM facts
+        WHERE predicate='USES'
+        GROUP BY object
+        ORDER BY mentions DESC
+    """).fetchall()
+
+    conn.close()
+
+    return [dict(row) for row in rows]
+
+
+@app.get("/api/founder/goals")
+def goals():
+
+    conn = get_db()
+
+    rows = conn.execute("""
+        SELECT truth
+        FROM founder_truths
+        WHERE truth_type='GOAL'
+    """).fetchall()
+
+    conn.close()
+
+    return [dict(row) for row in rows]
+
+
+@app.get("/api/founder/decisions")
+def decisions():
+
+    conn = get_db()
+
+    rows = conn.execute("""
+        SELECT truth
+        FROM founder_truths
+        WHERE truth_type='DECISION'
+    """).fetchall()
+
+    conn.close()
+
+    return [dict(row) for row in rows]
+
+
+@app.get("/api/founder/learnings")
+def learnings():
+
+    conn = get_db()
+
+    rows = conn.execute("""
+        SELECT truth
+        FROM founder_truths
+        WHERE truth_type='LEARNING'
+    """).fetchall()
+
+    conn.close()
+
+    return [dict(row) for row in rows]
+
+
+@app.get("/api/founder/timeline")
+def timeline():
+
+    conn = get_db()
+
+    rows = conn.execute("""
+        SELECT
+            truth_type,
+            truth,
+            confidence,
+            evidence_count
+        FROM founder_truths
+        ORDER BY evidence_count DESC
+    """).fetchall()
+
+    conn.close()
+
+    return [dict(row) for row in rows]
+
+
+@app.get("/api/founder/dashboard")
+def dashboard():
+
+    conn = get_db()
+
+    projects = conn.execute("""
+        SELECT object, COUNT(*) as mentions
+        FROM facts
+        WHERE predicate='BUILT'
+        GROUP BY object
+        ORDER BY mentions DESC
+        LIMIT 10
+    """).fetchall()
+
+    skills = conn.execute("""
+        SELECT object, COUNT(*) as mentions
+        FROM facts
+        WHERE predicate='USES'
+        GROUP BY object
+        ORDER BY mentions DESC
+        LIMIT 10
+    """).fetchall()
+
+    goals = conn.execute("""
+        SELECT truth
+        FROM founder_truths
+        WHERE truth_type='GOAL'
+    """).fetchall()
+
+    conn.close()
+
+    return {
+        "projects": [dict(x) for x in projects],
+        "skills": [dict(x) for x in skills],
+        "goals": [dict(x) for x in goals]
+    }
+
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(
+        "explorer_api:app",
+        host="0.0.0.0",
+        port=8000,
+        reload=True
+    )

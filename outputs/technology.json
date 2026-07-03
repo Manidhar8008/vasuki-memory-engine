@@ -1,0 +1,30 @@
+[
+  {
+    "name": "react",
+    "frequency": 1
+  },
+  {
+    "name": "postgresql",
+    "frequency": 1
+  },
+  {
+    "name": "fastapi",
+    "frequency": 1
+  },
+  {
+    "name": "kubernetes",
+    "frequency": 1
+  },
+  {
+    "name": "docker",
+    "frequency": 1
+  },
+  {
+    "name": "github",
+    "frequency": 1
+  },
+  {
+    "name": "python",
+    "frequency": 1
+  }
+]

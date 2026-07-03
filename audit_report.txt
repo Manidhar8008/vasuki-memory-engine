@@ -1,0 +1,190 @@
+
+======================================================================
+VASUKI DATABASE DEEP AUDIT
+======================================================================
+
+[files]
+rows = 41802
+columns:
+id, path, name, extension, category, size, created_at, modified_at
+
+samples:
+-MANIDHAR%20PATI%20CV.docx
+-C V 2024.docx
+-.xxx_did
+-found the unfindable part 1.docx
+-au_uu_SzH34yR2.mp3
+
+[documents]
+rows = 595
+columns:
+id, title, path, chars, content, category
+
+samples:
+-Multi-Model Personalized AI Agent Architecture (Research Analysis).pdf
+-Found_the_Unfindable_AI_Masterplan.pdf
+-Found_the_Unfindable_Masterboard.pdf
+-AffidavitofSupport - gannon.pdf
+-2360279_Salary_Release.pdf
+
+[memories]
+rows = 21422
+columns:
+id, created_at, memory_type, memory, confidence, category, domain, quality_score
+
+samples:
+-AI is a dominant domain with 260 documents
+-UNKNOWN is a dominant domain with 139 documents
+-FINANCE is a dominant domain with 113 documents
+-LEGAL is a dominant domain with 40 documents
+-CAREER is a dominant domain with 40 documents
+
+[classified_memories]
+rows = 21422
+columns:
+id, memory_id, category, confidence, content
+
+samples:
+-AI is a dominant domain with 260 documents
+-UNKNOWN is a dominant domain with 139 documents
+-FINANCE is a dominant domain with 113 documents
+-LEGAL is a dominant domain with 40 documents
+-CAREER is a dominant domain with 40 documents
+
+[entities]
+rows = 42648
+columns:
+id, entity, entity_type, frequency, created_at, quality_score
+
+[entity_mentions]
+rows = 545000
+columns:
+artifact_id, entity_id, count
+
+[ocr_records]
+rows = 3848
+columns:
+id, file_path, raw_text, created_at
+
+[projects_v2]
+rows = 35
+columns:
+id, memory_id, name, confidence
+
+samples:
+-◦ PROJECT MANAGEMENT                    INTEGRATED REPORTING INFORMATION SYSTEM (IRIS)
+-◦ PROJECT MANAGEMENT                    INTEGRATED REPORTING INFORMATION SYSTEM (IRIS)
+-◦ PROJECT MANAGEMENT                    INTEGRATED REPORTING INFORMATION SYSTEM (IRIS)
+-systems, server management, and infrastructure support across Windows, Linux, and UNIX platforms
+-systems, server management, and infrastructure support across Windows, Linux, and UNIX platforms
+
+[skills_v2]
+rows = 246
+columns:
+id, memory_id, name, confidence
+
+samples:
+-python often appears with sql (43)
+-To design a personalized AI agent combining multiple models (LLMs, tools, memory, user interfaces),
+-Overview: An LLM agent uses a large language model as its “brain,” planning and reasoning in natural
+-Agent Brain (LLM + Planning): The LLM “brain” interprets instructions and plans multi-step
+-Key  References: LLM  agents  are  autonomous  AI  systems  with  perception,  tools,  memory,  and
+
+[goals]
+rows = 664
+columns:
+id, title, status, priority, created_at
+
+samples:
+-Overview: An LLM agent uses a large language model as its “brain,” planning and reasoning in natural
+-The LLM interprets user goals, breaks them into steps, and alternates “thoughts” (reasoning steps) with
+-Agent Brain (LLM + Planning): The LLM “brain” interprets instructions and plans multi-step
+-Good Health Plan Ltd, Insurance Helpline: 1800 4253232 / 18604253232 or Visit http://www
+-The digital copy of OMR sheet will be made available in the Commission’s website after completion of the image
+
+[decisions]
+rows = 188
+columns:
+id, decision, reason, created_at
+
+[observations]
+rows = 26
+columns:
+id, timestamp, source, observation, confidence
+
+[graph]
+rows = 29794
+columns:
+id, source, target, weight
+
+[timeline]
+rows = 165
+columns:
+id, source, title, timestamp, content
+
+samples:
+-MANIDHAR
+-MANIDHAR
+-MANIDHAR
+-MANIDHAR
+-MANIDHAR
+
+======================================================================
+
+TOP ENTITY TYPES
+
+concept 42646
+person 2
+
+======================================================================
+
+TOP PROJECTS
+
+6 systems, server management, and infrastructure support across Windows, Linux, an
+3 ◦ PROJECT MANAGEMENT                    INTEGRATED REPORTING INFORMATION SYSTEM 
+3 ecosystem adoption that may never materialize if each AI platform builds its own
+2 Senior Process Executive -Cognizant | Client: Lime (Micromobility) | Mar 2022 -O
+2 PROJECTS Lime Micromobility  End-to-End Business Intelligence, Data Engineering
+2 October 2024Architected and maintained the end-to-end Lime IoT ML platform, esta
+2 Engineering Sprint Board · Content Calendar · Product Roadmap (Timeline) · Clien
+2 - Utilized JIRA, Confluence, and MS Visio to track project workflows and documen
+1 ● Project:Local News AppPlatform:Android StudioObjective:This is an application 
+1 ● Project:Automatic Watering SystemTechnology:IOTObjective:This project helps in
+1  The AI Automation Angle: Position your capstone project as proof you can elimi
+1  Outreach strategy: Message founders and COOs directly on LinkedIn with your ca
+1 Worked on a smart water-saving system project with a cross-functional approach, 
+1 VVDN  Technologies  —   Software  Engineer Gandhinagar,  Gujarat   |   October  
+1 POS System for Private Entity project that involved the deployment of payment ki
+1 JANANI is a category-defining personal AI companion platform conceived in Warang
+1 for complex enterprise level software systems in Cloud/Enterprise platform invol
+1 Build fleet transition financial models — phased EV adoption roadmap with ROI pr
+1 Allow coaching businesses, fitness studios, or mental health platforms to brand 
+1 AI-powered Supply Chain Automation System as a capstone project — integrating pr
+
+======================================================================
+
+TOP SKILLS
+
+4 tune lightly (LoRA) to get baseline domain knowledge, but rely on RAG and prompt
+4 To design a personalized AI agent combining multiple models (LLMs, tools, memory
+4 shows  storing  each  interaction  in  Postgres  via  SQLAlchemy,  ensuring  aud
+4 series databases can augment SQL for session state or metrics, but PostgreSQL ha
+4 PostgreSQL (often via an ORM like SQLAlchemy) is a common choice for structured 
+4 Parameter-Efficient Fine-Tuning: Modern practice is to freeze most of the base L
+4 Overview: Fine-tuning adapts a base LLM to domain-specific data or tasks; it com
+4 Overview: An LLM agent uses a large language model as its “brain,” planning and 
+4 messages and AI responses are saved in a SQL database via SQLAlchemy, enabling s
+4 Memory Store: Maintain a short-term cache (recent dialogue) and a vector DB for 
+4 Key References: The Twilio tutorial (FastAPI+SQLAlchemy) demonstrates using a SQ
+4 Key  References: LLM  agents  are  autonomous  AI  systems  with  perception,  t
+4 Implementation: Use SQLAlchemy for ORM convenience (as shown in Twilio’s FastAPI
+4 How to Build an AI Chatbot for WhatsApp with Python, Twilio, and OpenAI: A Step-
+4 compatible API server in a container and leverages Kubernetes (node selectors, d
+4 com/pulse/transfer-learning-from-llms-2026-one-big-model-full-ai-pipelines-r6w9e
+4 Chatbot Logic: In the /message handler , the example code illustrates calling th
+4 architecture,  we  should  consider  fine-tuning  both  the  main  LLM  (with  L
+4 Agent Brain (LLM + Planning): The LLM “brain” interprets instructions and plans 
+4 4production  system  should  combine  these:  containerized  LLM  services,  sca
+
+AUDIT COMPLETE
+

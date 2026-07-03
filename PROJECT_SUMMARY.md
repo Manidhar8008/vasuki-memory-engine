@@ -1,0 +1,442 @@
+# Vasuki Memory Engine - Project Analysis
+
+**Total Python Files:** 6063
+**Has .env:** Yes
+**Has README.md:** No
+
+## 🚀 Main Entry Points (Run these)
+- `python meta_agent.py`
+- `python memory.py`
+- `python founder_knowledge_report.py`
+- `python explorer_api.py`
+- `python explorer_api_backup.py`
+- `python project_analyzer.py`
+- `python vasuki_archaeologist/archaeologist.py`
+- `python vasuki_archaeologist/repair_ingest.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/__main__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/cachecontrol/_cmd.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/dependency_groups/__main__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/dependency_groups/_lint_dependency_groups.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/dependency_groups/_pip_wrapper.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/distro/__main__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/distro/distro.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/packaging/_musllinux.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/platformdirs/__main__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/requests/certs.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/requests/help.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/__init__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/__main__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/_log_render.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/_ratio.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/_win32_console.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/_windows.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/_wrap.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/abc.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/align.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/box.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/cells.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/color.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/columns.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/console.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/control.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/default_styles.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/diagnose.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/emoji.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/highlighter.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/json.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/layout.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/live.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/logging.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/markup.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/padding.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/pager.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/palette.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/panel.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/pretty.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/progress.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/progress_bar.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/prompt.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/repr.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/rule.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/scope.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/segment.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/spinner.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/status.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/styled.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/syntax.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/table.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/text.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/theme.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/traceback.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pip/_vendor/rich/tree.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/markdown_it/cli/parse.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/__init__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/__main__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/_log_render.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/_ratio.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/_win32_console.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/_windows.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/_wrap.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/abc.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/align.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/box.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/color.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/columns.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/console.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/control.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/default_styles.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/diagnose.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/emoji.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/highlighter.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/json.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/layout.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/live.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/logging.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/markdown.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/markup.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/padding.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/pager.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/palette.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/panel.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/pretty.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/progress.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/progress_bar.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/prompt.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/repr.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/rule.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/scope.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/segment.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/spinner.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/status.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/styled.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/syntax.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/table.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/text.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/theme.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/traceback.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/rich/tree.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/typer/main.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/typer/models.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/tabulate/__init__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pypdfium2/__main__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pypdfium2_cli/__main__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pycparser/_ast_gen.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/PIL/IcnsImagePlugin.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/PIL/ImageShow.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/PIL/SpiderImagePlugin.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/charset_normalizer/__main__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/charset_normalizer/cli/__main__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pdfminer/__init__.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pdfplumber/cli.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/numpy/_configtool.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/numpy/_core/tests/test_cpu_features.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/numpy/f2py/crackfortran.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/numpy/f2py/diagnose.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pandas/tests/io/generate_legacy_storage_files.py`
+- `python vasuki_archaeologist/venv/lib/python3.13/site-packages/pandas/util/_doctools.py`
+- `python vasuki_archaeologist/venv/bin/dumppdf.py`
+- `python vasuki_archaeologist/venv/bin/pdf2txt.py`
+- `python backend/main.py`
+- `python backend/api/main.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/__main__.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/cachecontrol/_cmd.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/dependency_groups/__main__.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/dependency_groups/_lint_dependency_groups.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/dependency_groups/_pip_wrapper.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/distro/__main__.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/distro/distro.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/packaging/_musllinux.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/platformdirs/__main__.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/requests/certs.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/requests/help.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/__init__.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/__main__.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/_log_render.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/_ratio.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/_win32_console.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/_windows.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/_wrap.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/abc.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/align.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/box.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/cells.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/color.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/columns.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/console.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/control.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/default_styles.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/diagnose.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/emoji.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/highlighter.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/json.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/layout.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/live.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/logging.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/markup.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/padding.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/pager.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/palette.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/panel.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/pretty.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/progress.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/progress_bar.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/prompt.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/repr.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/rule.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/scope.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/segment.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/spinner.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/status.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/styled.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/syntax.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/table.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/text.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/theme.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/traceback.py`
+- `python backend/venv/lib/python3.13/site-packages/pip/_vendor/rich/tree.py`
+- `python backend/venv/lib/python3.13/site-packages/idna/__main__.py`
+- `python backend/venv/lib/python3.13/site-packages/idna/cli.py`
+- `python backend/venv/lib/python3.13/site-packages/anyio/to_process.py`
+- `python backend/venv/lib/python3.13/site-packages/fastapi/applications.py`
+- `python backend/venv/lib/python3.13/site-packages/fastapi/background.py`
+- `python backend/venv/lib/python3.13/site-packages/fastapi/datastructures.py`
+- `python backend/venv/lib/python3.13/site-packages/fastapi/exceptions.py`
+- `python backend/venv/lib/python3.13/site-packages/fastapi/param_functions.py`
+- `python backend/venv/lib/python3.13/site-packages/fastapi/routing.py`
+- `python backend/venv/lib/python3.13/site-packages/fastapi/security/api_key.py`
+- `python backend/venv/lib/python3.13/site-packages/fastapi/security/http.py`
+- `python backend/venv/lib/python3.13/site-packages/fastapi/security/oauth2.py`
+- `python backend/venv/lib/python3.13/site-packages/uvicorn/__main__.py`
+- `python backend/venv/lib/python3.13/site-packages/uvicorn/main.py`
+- `python backend/venv/lib/python3.13/site-packages/charset_normalizer/__main__.py`
+- `python backend/venv/lib/python3.13/site-packages/charset_normalizer/cli/__main__.py`
+- `python backend/venv/lib/python3.13/site-packages/requests/certs.py`
+- `python backend/venv/lib/python3.13/site-packages/requests/help.py`
+- `python backend/venv/lib/python3.13/site-packages/tabulate/__init__.py`
+- `python backend/venv/lib/python3.13/site-packages/sqlite_utils/__main__.py`
+- `python backend/venv/lib/python3.13/site-packages/numpy/_configtool.py`
+- `python backend/venv/lib/python3.13/site-packages/numpy/_core/tests/test_cpu_features.py`
+- `python backend/venv/lib/python3.13/site-packages/numpy/f2py/crackfortran.py`
+- `python backend/venv/lib/python3.13/site-packages/numpy/f2py/diagnose.py`
+- `python backend/venv/lib/python3.13/site-packages/pandas/tests/io/generate_legacy_storage_files.py`
+- `python backend/venv/lib/python3.13/site-packages/pandas/util/_doctools.py`
+- `python founder_api/main.py`
+
+## 📦 Required Third-Party Packages
+- Cython
+- OpenSSL
+- PIL
+- PyInstaller
+- REPL
+- abc
+- agents
+- annotated_doc
+- annotated_types
+- anyio
+- array
+- ast
+- asyncio
+- atexit
+- base64
+- binascii
+- bisect
+- brain
+- builtins
+- bz2
+- calendar
+- certifi
+- cffi
+- charset_normalizer
+- click
+- click_default_group
+- code_generators
+- codecs
+- colorsys
+- compileall
+- concurrent
+- configparser
+- contextlib
+- contextvars
+- copy
+- copyreg
+- cryptography
+- ctypes
+- database
+- dataclasses
+- dateutil
+- db
+- decimal
+- difflib
+- distutils
+- docutils
+- email
+- encodings
+- enum
+- errno
+- explorer_brain
+- fastapi
+- fileinput
+- fitz
+- fnmatch
+- fractions
+- functools
+- gc
+- getpass
+- gettext
+- git
+- gitdb
+- gunicorn
+- gzip
+- h11
+- h2
+- heapq
+- hmac
+- html
+- http
+- httptools
+- hypothesis
+- idna
+- importlib
+- inspect
+- ipaddress
+- itsdangerous
+- js
+- keyword
+- linecache
+- locale
+- lzma
+- markdown_it
+- markupsafe
+- matplotlib
+- mdurl
+- memory
+- mimetypes
+- mmap
+- msvcrt
+- multiprocessing
+- mypy
+- ntlm
+- ntpath
+- numba
+- numbers
+- numpy
+- olefile
+- openai
+- operator
+- optparse
+- outcome
+- pandas
+- pdb
+- pdfminer
+- pickle
+- pip
+- pkgutil
+- platform
+- plistlib
+- pluggy
+- posixpath
+- pprint
+- providers
+- py_compile
+- pyarrow
+- pydantic
+- pydantic_core
+- pydoc
+- pygments
+- pyodide
+- pypdf
+- pypdfium2
+- pypdfium2_cfg
+- pypdfium2_cli
+- pypdfium2_raw
+- pytesseract
+- pytest
+- python_multipart
+- queue
+- relative
+- reprlib
+- requests
+- rich
+- router
+- routes
+- runpy
+- secrets
+- select
+- selectors
+- services
+- setuptools
+- shellingham
+- shlex
+- signal
+- site
+- six
+- smmap
+- socket
+- sphinx
+- sqlite_fts4
+- sqlite_utils
+- ssl
+- starlette
+- stringprep
+- struct
+- sysconfig
+- tabulate
+- tarfile
+- the
+- threading
+- timeit
+- tkinter
+- token
+- tokenize
+- traceback
+- tracemalloc
+- trio
+- typer
+- types
+- typing_extensions
+- typing_inspection
+- unicodedata
+- unittest
+- urllib
+- urllib3
+- uvicorn
+- uvloop
+- warnings
+- watchfiles
+- weakref
+- websockets
+- wsproto
+- xml
+- xmlrpc
+- zipfile
+- zipimport
+- zlib
+- zoneinfo
+
+## 🗄️ Detected SQLite Databases
+- `vasuki_v2.db`
+- `vasuki_backup.db`
+- `vasuki_backup_20260624.db`
+- `vasuki.db`
+- `vasuki_day1_founder_os.db`
+- `founder.db`
+
+## 📁 File Import Map (Sample)
+- `scan.py` → ['pathlib']
+- `find_file.py` → ['sqlite3']
+- `index_files.py` → ['pathlib', 'datetime', 'sqlite3', 'os']
+- `vasuki.py` → []
+- `ingest_pdf.py` → ['pypdf', 'sqlite3', 'os']
+- `search.py` → ['sqlite3']
+- `meta_agent.py` → ['pathlib', 'collections', 'typing', 're', 'sqlite3', 'json']
+- `pdf_eda.py` → ['re', 'collections', 'sqlite3']
+- `archaeologist.py` → ['collections', 'sqlite3', 'os']
+- `life_map.py` → ['collections', 'sqlite3']
+- `observer.py` → ['pathlib', 'datetime', 'sqlite3']
+- `concept_extractor.py` → ['re', 'collections', 'sqlite3']
+- `pdf_classifier.py` → ['sqlite3']
+- `pdf_ingest_all.py` → ['pypdf', 'pathlib', 'sqlite3']
+- `check_db.py` → ['sqlite3']
+- *... and 6048 more files.*

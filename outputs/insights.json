@@ -1,0 +1,819 @@
+{
+  "metrics": {
+    "files": 41802,
+    "documents": 595,
+    "memories": 21422,
+    "entities": 42648,
+    "mentions": 545000,
+    "screenshots": 5
+  },
+  "skills": [
+    {
+      "name": "We\u00a0are\u00a0pleased\u00a0to\u00a0offer\u00a0you\u00a0employment\u00a0in\u00a0our\u00a0Organization\u00a0Teamlease\u00a0Digital\u00a0Pvt\u00a0Ltd",
+      "count": 20
+    },
+    {
+      "name": "You\u00a0agree\u00a0to\u00a0defend,\u00a0indemnify\u00a0and\u00a0hold\u00a0Teamlease\u00a0or\u00a0its\u00a0Client/s\u00a0harmless\u00a0from\u00a0any\u00a0and\u00a0all\u00a0claims,\u00a0damages,\u00a0liability,\u00a0attorneys\u00a0fees",
+      "count": 20
+    },
+    {
+      "name": "and\u00a0expenses\u00a0on\u00a0account\u00a0of\u00a0your\u00a0failure\u00a0to\u00a0satisfy\u00a0any\u00a0of\u00a0your\u00a0obligations\u00a0under\u00a0this\u00a0work\u00a0assignment\u00a0letter\u00a0or\u00a0for\u00a0misconduct\u00a0or\u00a0for",
+      "count": 20
+    },
+    {
+      "name": "It\u00a0is\u00a0hereby\u00a0clarified\u00a0that\u00a0if\u00a0you\u00a0fail\u00a0to\u00a0submit\u00a0the\u00a0ESIC,\u00a0PF,\u00a0Gratuity\u00a0nomination\u00a0forms\u00a0together\u00a0with\u00a0any\u00a0other\u00a0document\u00a0as",
+      "count": 20
+    },
+    {
+      "name": "required\u00a0under\u00a0the\u00a0applicable\u00a0labour\u00a0legislations,\u00a0Teamlease\u00a0shall\u00a0not\u00a0incur\u00a0any\u00a0liability\u00a0with\u00a0regards\u00a0to\u00a0any\u00a0Claims\u00a0under\u00a0the\u00a0said\u00a0applicable",
+      "count": 20
+    },
+    {
+      "name": "of\u00a0media)\u00a0design\u00a0and\u00a0maintenance\u00a0tools,\u00a0and\u00a0hardware/software\u00a0product\u00a0know\u00adhow\u00a0and\u00a0show\u00adhow,\u00a0and\u00a0all\u00a0derivatives,\u00a0developments,",
+      "count": 20
+    },
+    {
+      "name": "You\u00a0shall\u00a0not\u00a0claim\u00a0ownership\u00a0to\u00a0any\u00a0of\u00a0the\u00a0work\u00a0which\u00a0were\u00a0created\u00a0or\u00a0developed\u00a0by\u00a0you,\u00a0partially\u00a0or\u00a0wholly,\u00a0during\u00a0the\u00a0course\u00a0of",
+      "count": 20
+    },
+    {
+      "name": "Teamlease\u00a0and/or\u00a0its\u00a0Clients,\u00a0as\u00a0the\u00a0case\u00a0may\u00a0be,\u00a0shall\u00a0retain\u00a0exclusive\u00a0ownership\u00a0and\u00a0rights\u00a0for",
+      "count": 20
+    },
+    {
+      "name": "Obtaining\u00a0a\u00a0\u201cNo\u00a0Objection\u00a0Letter\u201d\u00a0from\u00a0the\u00a0client\u00a0as\u00a0a\u00a0confirmation\u00a0of\u00a0your\u00a0having\u00a0complied\u00a0with\u00a0(a)\u00a0above",
+      "count": 20
+    },
+    {
+      "name": "you\u00a0fail\u00a0\u00a0to\u00a0give\u00a0such\u00a0written\u00a0notice\u00a0and\u00a0complete\u00a0the\u00a0handover\u00a0within\u00a0the\u00a0prescribed\u00a0time\u00a0as\u00a0mentioned\u00a0\u00a0hereinabove",
+      "count": 20
+    },
+    {
+      "name": "The\u00a0combined\u00a0rules\u00a0and\u00a0regulations\u00a0contained\u00a0in\u00a0this\u00a0letter\u00a0and\u00a0communicated\u00a0to\u00a0you\u00a0through\u00a0any\u00a0associate\u00a0policy\u00a0handbook",
+      "count": 20
+    },
+    {
+      "name": "representative\u00a0of\u00a0Teamlease\u00a0kindly\u00a0bring\u00a0the\u00a0same\u00a0to\u00a0the\u00a0immediate\u00a0notice\u00a0of\u00a0your\u00a0superiors\u00a0or\u00a0report\u00a0the\u00a0same\u00a0to\u00a0Teamlease\u00a0through\u00a0email",
+      "count": 20
+    },
+    {
+      "name": "For\u00a0Teamlease\u00a0Digital\u00a0Pvt\u00a0Ltd\u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Accepted\u00a0and\u00a0Agreed",
+      "count": 20
+    },
+    {
+      "name": "**\u00a0Annual\u00a0components\u00a0(like\u00a0LTA,\u00a0Medical\u00a0Reimbursement)\u00a0would\u00a0be\u00a0payable\u00a0on\u00a0claims\u00a0and\u00a0will\u00a0be\u00a0considered\u00a0for\u00a0exemption\u00a0under\u00a0Income\u00a0Tax\u00a0subject\u00a0to\u00a0rec",
+      "count": 20
+    },
+    {
+      "name": "** Please complete the online mandatory training programme on the Prevention of Sexual Harassment (POSH)",
+      "count": 14
+    },
+    {
+      "name": "our nearest TeamLease office to submit their resume OR send an email to 3000jobs@teamlease",
+      "count": 14
+    },
+    {
+      "name": "Important: Please call/ mail us with your latest Mobile Number and Email id to avoid missing out on important communications",
+      "count": 11
+    },
+    {
+      "name": "Regd Office: 115/535, Old Mahabalipuram Road, Okkiam Thoraipakkam, Chennai - 600 097",
+      "count": 10
+    },
+    {
+      "name": "(The deductor to provide payment wise details of tax deducted and deposited with respect to the deductee)",
+      "count": 6
+    },
+    {
+      "name": "Proactive and detail-oriented Technical Support Engineer with 3+ years of experience in enterprise IT",
+      "count": 6
+    },
+    {
+      "name": "failures using Postman; escalated complex cases to infrastructure and development teams,",
+      "count": 6
+    },
+    {
+      "name": "checks via Jenkins, and trained 10+ juniors, cutting ticket time by 40% and escalations by",
+      "count": 6
+    },
+    {
+      "name": "Please note that a charge of Rs 400 will be levied against your account in case of EMI bouncing due to insuf\ufb01cient balance",
+      "count": 6
+    },
+    {
+      "name": "If suf\ufb01cient balance is not maintained by this second attempt, a further bounce charge of Rs 400 will be levied",
+      "count": 6
+    },
+    {
+      "name": "note that non-payment of EMI within the calendar month will result in a penal charge of 2% of the unpaid EMI or Rs 300 whichever is higher",
+      "count": 6
+    },
+    {
+      "name": "Now you can help others looking for jobs -Ask your friends & family members to visit our nearest TeamLease office to submit their resume OR send an em",
+      "count": 6
+    },
+    {
+      "name": "Provided further that any fine imposed under this section shall be paid to the victim",
+      "count": 6
+    },
+    {
+      "name": "To design a personalized AI agent combining multiple models (LLMs, tools, memory, user interfaces),",
+      "count": 4
+    },
+    {
+      "name": "Overview: An LLM agent uses a large language model as its \u201cbrain,\u201d planning and reasoning in natural",
+      "count": 4
+    },
+    {
+      "name": "The LLM interprets user goals, breaks them into steps, and alternates \u201cthoughts\u201d (reasoning steps) with",
+      "count": 4
+    },
+    {
+      "name": "Agent Brain (LLM + Planning): The LLM \u201cbrain\u201d interprets instructions and plans multi-step",
+      "count": 4
+    },
+    {
+      "name": "Tools and Function Calling: Agents call external tools (APIs, databases, calculators) via LLM",
+      "count": 4
+    },
+    {
+      "name": "OpenAI\u2019s  function-calling  feature,  for  example,  lets  GPT-4  output  a  JSON-structured",
+      "count": 4
+    },
+    {
+      "name": "components are commonly implemented via vector stores (for embeddings/RAG) or relational",
+      "count": 4
+    },
+    {
+      "name": "Key  References: LLM  agents  are  autonomous  AI  systems  with  perception,  tools,  memory,  and",
+      "count": 4
+    },
+    {
+      "name": "PostgreSQL (often via an ORM like SQLAlchemy) is a common choice for structured storage of",
+      "count": 4
+    },
+    {
+      "name": "messages and AI responses are saved in a SQL database via SQLAlchemy, enabling session continuity",
+      "count": 4
+    },
+    {
+      "name": "Feedback/Analytics: Log user feedback or performance metrics for retraining/analysis",
+      "count": 4
+    },
+    {
+      "name": "Memory Indexing: Keep pointers to memory entries or RAG document references (especially if",
+      "count": 4
+    },
+    {
+      "name": "Implementation: Use SQLAlchemy for ORM convenience (as shown in Twilio\u2019s FastAPI example,",
+      "count": 4
+    },
+    {
+      "name": "series databases can augment SQL for session state or metrics, but PostgreSQL handles complex",
+      "count": 4
+    },
+    {
+      "name": "Recent  Insights: While  vector  stores  get  attention  for  LLM  memory,  industry  guides  still",
+      "count": 4
+    },
+    {
+      "name": "shows  storing  each  interaction  in  Postgres  via  SQLAlchemy,  ensuring  auditability  and",
+      "count": 4
+    },
+    {
+      "name": "Key References: The Twilio tutorial (FastAPI+SQLAlchemy) demonstrates using a SQL database to log",
+      "count": 4
+    },
+    {
+      "name": "recommends  strict  container  images,  pinning  DB  versions  and  dependencies  for  predictability",
+      "count": 4
+    },
+    {
+      "name": "Overview: Fine-tuning adapts a base LLM to domain-specific data or tasks; it complements prompt",
+      "count": 4
+    },
+    {
+      "name": "Parameter-Efficient Fine-Tuning: Modern practice is to freeze most of the base LLM and train a",
+      "count": 4
+    },
+    {
+      "name": "now default in industry: it shortens training cycles, allows multiple domain adapters on one base",
+      "count": 4
+    },
+    {
+      "name": "Embeddings and Retrieval: For RAG or vector memory,  fine-tuning embedding models can",
+      "count": 4
+    },
+    {
+      "name": "architecture,  we  should  consider  fine-tuning  both  the  main  LLM  (with  LoRA/SDFT)  and  any",
+      "count": 4
+    }
+  ],
+  "projects": [
+    {
+      "name": "Teamlease\u00a0or\u00a0the\u00a0client\u2019s\u00a0business/es,\u00a0technical\u00a0and\u00a0non\u00adtechnical\u00a0information,\u00a0research\u00a0project,\u00a0work\u00a0in\u00a0process,\u00a0future",
+      "count": 20
+    },
+    {
+      "name": "virtue\u00a0of\u00a0your\u00a0resignation\u00a0and\u00a0its\u00a0acceptance,\u00a0or\u00a0termination\u00a0or\u00a0project\u00a0closure,\u00a0you\u00a0shall\u00a0cease\u00a0to\u00a0use\u00a0all\u00a0confidential\u00a0information\u00a0and",
+      "count": 20
+    },
+    {
+      "name": "Handing\u00a0over\u00a0the\u00a0project\u00a0and\u00a0knowledge\u00a0transfer\u00a0to\u00a0the\u00a0client\u2019s\u00a0assigned\u00a0representative/s\u00a0in\u00a0\u00a0respect\u00a0of\u00a0the\u00a0assignments\u00a0handled\u00a0by",
+      "count": 20
+    },
+    {
+      "name": "systems, server management, and infrastructure support across Windows, Linux, and UNIX platforms",
+      "count": 6
+    },
+    {
+      "name": "Proven track record in reducing downtime, improving system efficiency, and enhancing security",
+      "count": 6
+    },
+    {
+      "name": "platforms with 95%+ SLA compliance, ensuring timely resolution of incidents and service",
+      "count": 6
+    },
+    {
+      "name": "\u2022 Diagnosed and troubleshot system, network, and application-level issues, including API",
+      "count": 6
+    },
+    {
+      "name": "DISCLAIMER: This is a system generated Account Statement and does not require signature",
+      "count": 6
+    },
+    {
+      "name": "Biotechnology-VII Web Programming Web Programming Project Management Data  Mining",
+      "count": 6
+    },
+    {
+      "name": "Maxim AI\u2019s guide) highlight  prompt engineering platforms and frameworks (LangSmith, PromptLayer ,",
+      "count": 4
+    },
+    {
+      "name": "practice,  system  prompts  or  programmatic  prompts  define  functions/tools  and  instruct  the",
+      "count": 4
+    },
+    {
+      "name": "Best  practices  include  explicit  instructions,  sanity-checking  outputs,  and  aligning  system",
+      "count": 4
+    },
+    {
+      "name": "Transfer-Learning Pipelines: By 2026, adaptation is treated as a system design problem, not just",
+      "count": 4
+    },
+    {
+      "name": "inspired Memory System) architecturally splits memory into a short-term (RL-trained summarizer",
+      "count": 4
+    },
+    {
+      "name": "Prompting  &  Orchestration: Use  structured  system  prompts  and  CoT/ReAct  templates  to",
+      "count": 4
+    },
+    {
+      "name": "including ideas, concepts, projections, technology, manuals, drawing, designs, speci\ufb01cations, and all",
+      "count": 4
+    },
+    {
+      "name": "In case of train cancellation on its entire run, full refund is granted automatically by the system",
+      "count": 4
+    },
+    {
+      "name": "\u25e6 PROJECT MANAGEMENT                    INTEGRATED REPORTING INFORMATION SYSTEM (IRIS)",
+      "count": 3
+    },
+    {
+      "name": "\u2022 Played a key role in a pricing optimization project that led to a 9% margin improvement",
+      "count": 3
+    },
+    {
+      "name": "The world's largest AI roleplay and companion platform \u2014 20M+ daily active users",
+      "count": 3
+    },
+    {
+      "name": "The RPG progression system creates deep investment in your character's stats and",
+      "count": 3
+    },
+    {
+      "name": "Several coaches have migrated away after discovering competing platforms with more robust",
+      "count": 3
+    },
+    {
+      "name": "ecosystem adoption that may never materialize if each AI platform builds its own",
+      "count": 3
+    },
+    {
+      "name": "Alternative Path is seeking skilled software developers to collaborate on client projects with an asset",
+      "count": 2
+    },
+    {
+      "name": "to shape and innovate new products and features for our platform, enhancing existing ones",
+      "count": 2
+    },
+    {
+      "name": "existing checks and develop techniques to improve the coverage of checks across our platform",
+      "count": 2
+    },
+    {
+      "name": "The Data Guardian Team is seeking a creative and detail-oriented developer to contribute to projects",
+      "count": 2
+    },
+    {
+      "name": "\u2022        Create, update, and manage service requests or incidents in the ticketing system",
+      "count": 2
+    },
+    {
+      "name": "Having directly owned customer escalations, SLA failures, and operational breakdowns, I design reliable data pipelines, analytics layers, and predicti",
+      "count": 2
+    },
+    {
+      "name": "TECHNICAL SKILLS Problem Solving & Systems Thinking: End-to-end problem ownership, translating business pain into data-backed systems, designing solut",
+      "count": 2
+    },
+    {
+      "name": "PROJECTS Lime Micromobility \u0013 End-to-End Business Intelligence, Data Engineering & ML Solution Business Problem: Micromobility operations suffer from ",
+      "count": 2
+    },
+    {
+      "name": "Senior Process Executive -Cognizant | Client: Lime (Micromobility) | Mar 2022 -Oct 2024 Supported large-scale micromobility operations through ticketi",
+      "count": 2
+    },
+    {
+      "name": "Every Sunday: (1) Empty Inbox \u2192 sort to PARA, (2) Review active Projects \u2192 update status, (3) Archive",
+      "count": 2
+    },
+    {
+      "name": "When a new task is added to a Project, automatically set Assignee = Project Owner",
+      "count": 2
+    },
+    {
+      "name": "When a new Project is created with Type='Marketing', auto-generate 8 standard tasks",
+      "count": 2
+    },
+    {
+      "name": "When a Project is created, notify the team Slack channel with project name and owner",
+      "count": 2
+    },
+    {
+      "name": "Engineering Sprint Board \u00b7 Content Calendar \u00b7 Product Roadmap (Timeline) \u00b7 Client Project Tracker \u00b7 OKR Dashboard",
+      "count": 2
+    },
+    {
+      "name": "Student Dashboard \u00b7 Cornell Notes Template \u00b7 Essay Research Tracker \u00b7 Exam Prep Calendar \u00b7 Group Project Hub",
+      "count": 2
+    },
+    {
+      "name": "Second Brain by Thomas Frank \u00b7 PARA Method Starter Kit \u00b7 GTD + PARA Hybrid System \u00b7 Zettelkasten Notes Network \u00b7",
+      "count": 2
+    },
+    {
+      "name": "Icon + Color System: Assign consistent colors/icons to each PARA category for visual navigation",
+      "count": 2
+    },
+    {
+      "name": "\u007f Day 17: Create a Personal Dashboard \u2014 embed views of Today's Tasks, Active Projects",
+      "count": 2
+    },
+    {
+      "name": "\u2022 Identified and resolved data discrepancies across internal systems, increasing report",
+      "count": 2
+    },
+    {
+      "name": "- Utilized JIRA, Confluence, and MS Visio to track project workflows and document system",
+      "count": 2
+    },
+    {
+      "name": "- Delivered detailed systems design including data migration rules and business logic",
+      "count": 2
+    },
+    {
+      "name": "\u2022 Delivered omnichannel support (calls, emails, chat) for Lime using Zendesk; ensured SLA,",
+      "count": 2
+    },
+    {
+      "name": "In addition, you shall not disclose, divulge or bring on to Cognizant's systems or",
+      "count": 2
+    },
+    {
+      "name": "agreements with any clients on whose project you are being assigned on behalf of the Company",
+      "count": 2
+    },
+    {
+      "name": "including weekends, depending on the project requirements, business exigencies and/or for",
+      "count": 2
+    },
+    {
+      "name": "or class of employees or for all the employees based on project requirements, Company policies",
+      "count": 2
+    },
+    {
+      "name": "d) Your working hours shall be monitored by the Company through appropriate systems and",
+      "count": 2
+    }
+  ],
+  "goals": [
+    {
+      "name": "We\u00a0at\u00a0Teamlease\u00a0would\u00a0like\u00a0to\u00a0create\u00a0an\u00a0environment\u00a0and\u00a0culture\u00a0committed\u00a0to\u00a0co\u00adoperation,\u00a0quality\u00a0and\u00a0responsiveness\u00a0that\u00a0permeates",
+      "count": 20
+    },
+    {
+      "name": "rights that you may create during the tenure of association with the company including but not limited to",
+      "count": 4
+    },
+    {
+      "name": "to-principal basis and nothing in this agreement shall be deemed to have created a",
+      "count": 3
+    },
+    {
+      "name": "Build a licensed therapist escalation layer that activates when Ash detects acute risk",
+      "count": 3
+    },
+    {
+      "name": "\u25a0 Valuation/Market Cap: ~$20M\u2013$50M estimated (early stage, fast-growing niche player)",
+      "count": 3
+    },
+    {
+      "name": "Build a 'memory portability' feature \u2014 let users export their relationship history if the",
+      "count": 3
+    },
+    {
+      "name": "emotional attachment it creates concerns mental health professionals who worry about dependency replacing human",
+      "count": 3
+    },
+    {
+      "name": "Behavioural science-powered habit and routine building app \u2014 Duke University spinout",
+      "count": 3
+    },
+    {
+      "name": "App download \u2192 name your Finch baby bird \u2192 first goal: simply check in and tell the",
+      "count": 3
+    },
+    {
+      "name": "The bird grows visually as you build habits \u2014 users become attached to its progress",
+      "count": 3
+    },
+    {
+      "name": "companion (with different modes: Wise Panda, Empathetic Panda) creates emotional",
+      "count": 3
+    },
+    {
+      "name": "goals \u2192 invite clients via link \u2192 clients receive first personalized nudge within 24",
+      "count": 3
+    },
+    {
+      "name": "The academic branding creates perception of an unfinished product rather than enterprise-ready",
+      "count": 3
+    },
+    {
+      "name": "Build a visual knowledge graph explorer \u2014 let developers SEE the relationships their",
+      "count": 3
+    },
+    {
+      "name": "\u25a0 Valuation/Market Cap: ~$110M\u2013$150M estimated (private; growth has slowed since 2022 peak",
+      "count": 3
+    },
+    {
+      "name": "This original certificate must be sent to GGM (IT), IRCTC, Internet Ticketing Centre, IRCA Building, State Entry Road, New Delhi-",
+      "count": 3
+    },
+    {
+      "name": "opportunity to join a team -first meritocracy and help grow an entrepreneurial group inside Alternative",
+      "count": 2
+    },
+    {
+      "name": "I work across the full lifecycle-from understanding business friction to building data-backed solutions that drive measurable outcomes",
+      "count": 2
+    },
+    {
+      "name": "Data Foundations & Engineering: Designing and building ETL pipelines, ingesting real-world data from REST APls, processing structured and semi-structu",
+      "count": 2
+    },
+    {
+      "name": "Data Quality & Reliability: Data validation, consistency checks, incremental processing, historical backfills, building pipelines teams can trust to m",
+      "count": 2
+    },
+    {
+      "name": "Simon Last and relaunched in 2018, Notion reached a 10-million-user milestone by 2021 and today serves",
+      "count": 2
+    },
+    {
+      "name": "Unlike traditional note apps, Notion lets you build linked databases that reference each other, enabling CRM,",
+      "count": 2
+    },
+    {
+      "name": "Examples: 'Launch product website by June 15', 'Finish Q2 financial report', 'Complete Udemy",
+      "count": 2
+    },
+    {
+      "name": "Client A logo redesign (due May 30), Portfolio website relaunch, Write design case study",
+      "count": 2
+    },
+    {
+      "name": "building custom workflows, (4) Webhooks \u2014 triggering external services from Notion rules or buttons",
+      "count": 2
+    },
+    {
+      "name": "\u2022 Collaborated with operations to build dashboards on issue frequency, reducing response",
+      "count": 2
+    },
+    {
+      "name": "\u2022 Created knowledge base documentation to reduce resolution time and boost agent",
+      "count": 2
+    },
+    {
+      "name": "or agreement that binds the Company or creates any obligation (financial or otherwise) upon the",
+      "count": 2
+    },
+    {
+      "name": "promoting the spirit of meritocracy and career development with the goal of providing world-class",
+      "count": 2
+    },
+    {
+      "name": "Plot\u00a0No:\u00a0129\u00a0to\u00a0132,\u00a0APHB\u00a0Colony,\u00a01st\u00a0Floor,\u00a0DLF\u00a0Building,\u00a0Gachibowli,\u00a0Hyderabad\u00ad500\u00a0019",
+      "count": 2
+    },
+    {
+      "name": "Technical Builder & Operations Lead (Vipassana Sanstha - Seva & Sabbatical) | May",
+      "count": 2
+    },
+    {
+      "name": "Elected a deliberate operational and personal growth sabbatical to practice deep mental",
+      "count": 2
+    },
+    {
+      "name": "experience while fostering professional growth and contributing to organizational success",
+      "count": 2
+    },
+    {
+      "name": "* Designed and created database tables aligned with specified schema and business logic",
+      "count": 2
+    },
+    {
+      "name": "* Worked on Spring Boot, Spring Cloud, and Spring Security to build scalable microservices",
+      "count": 2
+    },
+    {
+      "name": "Choice of two plan options - Growth and Balanced, based on overall exposure to Equity, Debt and Money Market \u2022",
+      "count": 1
+    },
+    {
+      "name": "Growth and  Development : Concepts of Growth and Development \u2013Relationship between Growth",
+      "count": 1
+    },
+    {
+      "name": "Measures of Economic Growth:  National Income- Definition, Concepts and Methods of measuring",
+      "count": 1
+    },
+    {
+      "name": "Industry and Service Sectors: Industrial Development; Structure and Growth of Industry sector-",
+      "count": 1
+    },
+    {
+      "name": "Economic Reforms: Growth, Poverty and Inequalities \u2013 Social Development (education and health);",
+      "count": 1
+    },
+    {
+      "name": "Clause (e) prescribes the manner of filling vacancy created either by a successful",
+      "count": 1
+    },
+    {
+      "name": "The best way to tempt the old to go on working may be to build on such \u2018bridge\u2019 jobs: part-",
+      "count": 1
+    },
+    {
+      "name": "time or temporary employment that creates a more gradual transition from full-time work to",
+      "count": 1
+    },
+    {
+      "name": "If the job market grows more flexible, the old may find more jobs that suit them",
+      "count": 1
+    },
+    {
+      "name": "Fresher\u2019s who aspire to build their career in the field of Data Analysis and Data Science",
+      "count": 1
+    },
+    {
+      "name": "We create courses in collaboration with top universities and MNCs focused on employability,",
+      "count": 1
+    },
+    {
+      "name": "\u27a2 Fake job search portals are created and when victim shares secure credentials of",
+      "count": 1
+    },
+    {
+      "name": "registers for UPI with the bank, a unique virtual identifier is created and that is",
+      "count": 1
+    },
+    {
+      "name": "I understand that this application or subsequent employment does not create a contract of employment",
+      "count": 1
+    },
+    {
+      "name": "chosen by the applicant or to abolish / create a new centre for administrative reasons",
+      "count": 1
+    }
+  ],
+  "companies": [
+    {
+      "name": "We\u00a0are\u00a0pleased\u00a0to\u00a0deploy\u00a0you\u00a0to\u00a0our\u00a0client\u00a0 Cognizant\u00a0Technology\u00a0Solutions\u00a0India\u00a0Pvt\u00a0Ltd\u00a0\u00a0effective\u00a001\u00a0Mar\u00a02022\u00a0\u00a0at\u00a0 Hyderabad,\u00a0subject\u00a0to",
+      "count": 20
+    },
+    {
+      "name": "- Cognizant: Analyzed over 20 million customer reviews, extracting actionable insights to",
+      "count": 10
+    },
+    {
+      "name": "Cognizant: Resolved 1,200+ technical issues with 95% SLA compliance, reducing downtime",
+      "count": 6
+    },
+    {
+      "name": "5B total (Microsoft, Bill Gates, Eric Schmidt, Reid Hoffman) \u2014 Microsoft acquired core",
+      "count": 3
+    },
+    {
+      "name": "someone Googles 'I think I need therapy' at 2am and can't get an appointment for 8",
+      "count": 3
+    },
+    {
+      "name": "\u25a0 Funding: ~$20M+ total (Google for Startups, pi Ventures, W Health Ventures, JP Morgan \u2014 Series",
+      "count": 3
+    },
+    {
+      "name": "OpenAI, Anthropic, Google, and Meta are all building native memory \u2014 potentially",
+      "count": 3
+    },
+    {
+      "name": "\u25a0 Funding: $10M Seed (Felicis Ventures, Sky9 Capital, Jeff Dean of Google DeepMind, Hugging Face",
+      "count": 3
+    },
+    {
+      "name": "Please note you have agreed that you shall provide Genpact the Relieving Letter (if applicable) from our",
+      "count": 2
+    },
+    {
+      "name": "information will be kept secure and handled strictly in accordance with the Genpact Data Privacy Policy",
+      "count": 2
+    },
+    {
+      "name": "PROFESSIONAL EXPERIENCE Process Developer \u0013 Genpact | Client: Otis Elevators (Fintech) | Jan 2025 -Apr 2025 Worked with Order-to-Cash (02C) datasets, ",
+      "count": 2
+    },
+    {
+      "name": "Senior Process Executive-Voice with Cognizant Technology Solutions India Private",
+      "count": 2
+    },
+    {
+      "name": "\u2022 Prior to beginning work with Cognizant, you must provide evidence of your right to work in India",
+      "count": 2
+    },
+    {
+      "name": "\u2022 In addition to the above, as per Cognizant policy, you are eligible for child adoption leave and",
+      "count": 2
+    },
+    {
+      "name": "It is pro-rated to the duration spent with Cognizant India for the calendar year and",
+      "count": 2
+    },
+    {
+      "name": "Cognizant Technology Solutions India Private Limited, a company incorporated under the",
+      "count": 2
+    },
+    {
+      "name": "\"Company\" or \"Cognizant,\" which shall, unless counter to the context or meaning thereof, be",
+      "count": 2
+    },
+    {
+      "name": "b) Your unprofessional behavior or misconduct in violation of Cognizant's Code of Business",
+      "count": 2
+    },
+    {
+      "name": "You will be employed at any one of Cognizant's offices as per business requirements",
+      "count": 2
+    },
+    {
+      "name": "a) you hereby provide your consent to Cognizant, its affiliates and their clients for the holding and",
+      "count": 2
+    },
+    {
+      "name": "Cognizant in India and any other countries where Cognizant, its affiliates and their clients have",
+      "count": 2
+    },
+    {
+      "name": "Your employment with Cognizant is conditional and subject to satisfactory background and",
+      "count": 2
+    },
+    {
+      "name": "During the term of your employment with Cognizant and until two (2) years after the termination",
+      "count": 2
+    },
+    {
+      "name": "Please\u00a0be\u00a0informed\u00a0that\u00a0you\u00a0shall\u00a0be\u00a0bound\u00a0by\u00a0Cognizant\u2019s\u00a0policies\u00a0during\u00a0and\u00a0after\u00a0your\u00a0employment\u00a0in",
+      "count": 2
+    },
+    {
+      "name": "Cognizant\u2019s\u00a0or\u00a0its\u00a0client\u2019s\u00a0business/confidential\u00a0information\u00a0outside\u00a0the\u00a0Cognizant/Client\u2019s\u00a0network\u00a0during\u00a0the",
+      "count": 2
+    },
+    {
+      "name": "notice\u00a0period\u00a0shall\u00a0still\u00a0be\u00a0treated\u00a0as\u00a0a\u00a0violation\u00a0of\u00a0Cognizant\u2019s\u00a0policies\u00a0including\u00a0Cognizant\u00a0Acceptable\u00a0Use",
+      "count": 2
+    },
+    {
+      "name": "the field of Data Science and has worked in many prestigious companies like Genpact, TCS, and Tesco",
+      "count": 1
+    },
+    {
+      "name": "As per Genpact Policy and basis the agreed relieving date, you stand relieved from the services of the organization on the close of",
+      "count": 1
+    },
+    {
+      "name": "The settlement amount (if payable) as computed by the Genpact Payroll Team would be credited to your salary account as per the",
+      "count": 1
+    },
+    {
+      "name": "Cognizant Technology Solutions India Pvt Ltd (\u201cCognizant\u201d) to terminate my employment forthwith",
+      "count": 1
+    },
+    {
+      "name": "I state that Cognizant may request a credit and/or background check from a credit reporting agency or",
+      "count": 1
+    },
+    {
+      "name": "I also hereby au thorize Cognizant  to disclose the personal information and/or sensitive personal",
+      "count": 1
+    },
+    {
+      "name": "conducting mandatory background checks for employment opportunities with Cognizant",
+      "count": 1
+    },
+    {
+      "name": "I hereby authorize Cognizant  and/or its agents to conduct any reference check, criminal background",
+      "count": 1
+    },
+    {
+      "name": "I hereby authorize Cognizant to share the reference checks and background verification reports to such",
+      "count": 1
+    },
+    {
+      "name": "In the event that Cognizant  is unable to verify any refer ence stated in this application, it is my",
+      "count": 1
+    },
+    {
+      "name": "cognizant of the limitations of infrastructure at Mussoorie in accommo dating the",
+      "count": 1
+    },
+    {
+      "name": "If you face any issues in setting password, please reach to EumsSupport (Cognizant)",
+      "count": 1
+    },
+    {
+      "name": "India: Always Cognizant App \uf0e0 Letters & Documents - Relieving Letter/Resignation Acceptance",
+      "count": 1
+    },
+    {
+      "name": "UK and Ireland: Always Cognizant App \uf0e0 Letters & Documents - Relieving Letter / Revision &",
+      "count": 1
+    },
+    {
+      "name": "Australia and New Zealand: Always Cognizant App \uf0e0 Letters & Documents - Relieving Letter /",
+      "count": 1
+    },
+    {
+      "name": "APAC:  Always Cognizant App \uf0e0 Letters & Documents - Relieving Letter / Revision & Promotion",
+      "count": 1
+    },
+    {
+      "name": "US: Always Cognizant App \uf0e0 Letters & Documents - Relieving Letter / Roles & Responsibility",
+      "count": 1
+    },
+    {
+      "name": "On successful login, launch Always Cognizant and click on letters and documents tab",
+      "count": 1
+    },
+    {
+      "name": "Once the Letter request is submitted in Always Cognizant, the request will be sent to",
+      "count": 1
+    },
+    {
+      "name": "India: Please reach out to ExithelpdeskIndia(Cognizant) ExithelpdeskIndia@cognizant",
+      "count": 1
+    },
+    {
+      "name": "India: We request you to login to Always Cognizant App -> Financial tab \u2013>Download payslips",
+      "count": 1
+    },
+    {
+      "name": "India: We request you to login to Always Cognizant App -> Financial tab \u2013>Form 16 \u2013>",
+      "count": 1
+    },
+    {
+      "name": "India: We request you to login to Always Cognizant App -> Financial tab ->Tax computation",
+      "count": 1
+    },
+    {
+      "name": "Cognizant Technology Solutions Corporation and its affiliated companies  (\u201cCognizant\u201d \u201cwe\u201d or",
+      "count": 1
+    }
+  ],
+  "top_entities": []
+}

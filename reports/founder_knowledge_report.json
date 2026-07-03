@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-07-02T07:50:01.060171",
+  "founder": "Manidhar",
+  "database_stats": {
+    "documents": 595,
+    "memories": 21422,
+    "facts": 1019,
+    "knowledge_assets": 595,
+    "founder_truths": 9
+  },
+  "projects": [
+    {
+      "object": "Janani",
+      "mentions": 12
+    },
+    {
+      "object": "MW.AI",
+      "mentions": 9
+    },
+    {
+      "object": "Found the Unfindable",
+      "mentions": 3
+    },
+    {
+      "object": "Lime IoT ML Platform",
+      "mentions": 2
+    },
+    {
+      "object": "AI-powered Supply Chain Automation System",
+      "mentions": 1
+    }
+  ],
+  "skills": [
+    {
+      "object": "Python",
+      "mentions": 55
+    },
+    {
+      "object": "GitHub",
+      "mentions": 27
+    },
+    {
+      "object": "React",
+      "mentions": 23
+    },
+    {
+      "object": "PostgreSQL",
+      "mentions": 14
+    },
+    {
+      "object": "FastAPI",
+      "mentions": 14
+    },
+    {
+      "object": "Docker",
+      "mentions": 14
+    },
+    {
+      "object": "Ollama",
+      "mentions": 6
+    },
+    {
+      "object": "TypeScript",
+      "mentions": 3
+    },
+    {
+      "object": "SQLite",
+      "mentions": 2
+    }
+  ],
+  "goals": [
+    {
+      "truth": "Build Vasuki"
+    },
+    {
+      "truth": "Reach \u20b91L MRR"
+    },
+    {
+      "truth": "Get CTO"
+    }
+  ],
+  "learnings": [
+    {
+      "truth": "Metadata Before Embeddings"
+    }
+  ],
+  "decisions": [
+    {
+      "truth": "Local First Architecture"
+    }
+  ]
+}

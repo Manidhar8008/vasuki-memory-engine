@@ -1,0 +1,44 @@
+[
+  {
+    "id": 2,
+    "project_name": "Janani",
+    "fact_count": 12,
+    "technologies": "Python,FastAPI,SQLite,PostgreSQL,React,TypeScript,Docker,GitHub,Ollama",
+    "confidence": 0.8
+  },
+  {
+    "id": 3,
+    "project_name": "MW.AI",
+    "fact_count": 9,
+    "technologies": "Python,FastAPI,SQLite,PostgreSQL,React,TypeScript,Docker,GitHub,Ollama",
+    "confidence": 0.8
+  },
+  {
+    "id": 4,
+    "project_name": "Found the Unfindable",
+    "fact_count": 3,
+    "technologies": "Python,FastAPI,SQLite,PostgreSQL,React,TypeScript,Docker,GitHub,Ollama",
+    "confidence": 0.8
+  },
+  {
+    "id": 5,
+    "project_name": "Lime IoT ML Platform",
+    "fact_count": 2,
+    "technologies": "Python,FastAPI,SQLite,PostgreSQL,React,TypeScript,Docker,GitHub,Ollama",
+    "confidence": 0.8
+  },
+  {
+    "id": 6,
+    "project_name": "AI-powered Supply Chain Automation System",
+    "fact_count": 1,
+    "technologies": "Python,FastAPI,SQLite,PostgreSQL,React,TypeScript,Docker,GitHub,Ollama",
+    "confidence": 0.8
+  },
+  {
+    "id": 1,
+    "project_name": "Vasuki",
+    "fact_count": 0,
+    "technologies": "Python,FastAPI,SQLite,PostgreSQL,React,TypeScript,Docker,GitHub,Ollama",
+    "confidence": 0.8
+  }
+]

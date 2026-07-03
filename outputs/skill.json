@@ -1,0 +1,402 @@
+[
+  {
+    "name": "engineering",
+    "frequency": 1
+  },
+  {
+    "name": "brain",
+    "frequency": 1
+  },
+  {
+    "name": "chain-of-thought",
+    "frequency": 1
+  },
+  {
+    "name": "databases",
+    "frequency": 1
+  },
+  {
+    "name": "maintain",
+    "frequency": 1
+  },
+  {
+    "name": "chain-",
+    "frequency": 1
+  },
+  {
+    "name": "pydantic-ai",
+    "frequency": 1
+  },
+  {
+    "name": "langchain",
+    "frequency": 1
+  },
+  {
+    "name": "database",
+    "frequency": 1
+  },
+  {
+    "name": "sqlalchemy",
+    "frequency": 1
+  },
+  {
+    "name": "remains",
+    "frequency": 1
+  },
+  {
+    "name": "chains.",
+    "frequency": 1
+  },
+  {
+    "name": "data.",
+    "frequency": 1
+  },
+  {
+    "name": "retaining",
+    "frequency": 1
+  },
+  {
+    "name": "analytics",
+    "frequency": 1
+  },
+  {
+    "name": "retraining",
+    "frequency": 1
+  },
+  {
+    "name": "containerized",
+    "frequency": 1
+  },
+  {
+    "name": "container",
+    "frequency": 1
+  },
+  {
+    "name": "domain-specific",
+    "frequency": 1
+  },
+  {
+    "name": "data",
+    "frequency": 1
+  },
+  {
+    "name": "engineering.",
+    "frequency": 1
+  },
+  {
+    "name": "train",
+    "frequency": 1
+  },
+  {
+    "name": "training",
+    "frequency": 1
+  },
+  {
+    "name": "domain",
+    "frequency": 1
+  },
+  {
+    "name": "clarifai",
+    "frequency": 1
+  },
+  {
+    "name": "failed.",
+    "frequency": 1
+  },
+  {
+    "name": "trains",
+    "frequency": 1
+  },
+  {
+    "name": "main",
+    "frequency": 1
+  },
+  {
+    "name": "database.",
+    "frequency": 1
+  },
+  {
+    "name": "re-training.",
+    "frequency": 1
+  },
+  {
+    "name": "constraints.",
+    "frequency": 1
+  },
+  {
+    "name": "containerization",
+    "frequency": 1
+  },
+  {
+    "name": "remain",
+    "frequency": 1
+  },
+  {
+    "name": "taints",
+    "frequency": 1
+  },
+  {
+    "name": "openai-",
+    "frequency": 1
+  },
+  {
+    "name": "mlops",
+    "frequency": 1
+  },
+  {
+    "name": "contains",
+    "frequency": 1
+  },
+  {
+    "name": "twiml",
+    "frequency": 1
+  },
+  {
+    "name": "detail",
+    "frequency": 1
+  },
+  {
+    "name": "naive",
+    "frequency": 1
+  },
+  {
+    "name": "rl-trained",
+    "frequency": 1
+  },
+  {
+    "name": "tailored",
+    "frequency": 1
+  },
+  {
+    "name": "details",
+    "frequency": 1
+  },
+  {
+    "name": "training.",
+    "frequency": 1
+  },
+  {
+    "name": "retraining.",
+    "frequency": 1
+  },
+  {
+    "name": "guardrails",
+    "frequency": 1
+  },
+  {
+    "name": "domain.",
+    "frequency": 1
+  },
+  {
+    "name": "containers",
+    "frequency": 1
+  },
+  {
+    "name": "domains",
+    "frequency": 1
+  },
+  {
+    "name": "explained",
+    "frequency": 1
+  },
+  {
+    "name": "agenta.ai",
+    "frequency": 1
+  },
+  {
+    "name": "ai-chatbot-whatsapp-python-twilio-openai",
+    "frequency": 1
+  },
+  {
+    "name": "llms-and-ai-trends",
+    "frequency": 1
+  },
+  {
+    "name": "jain",
+    "frequency": 1
+  },
+  {
+    "name": "html",
+    "frequency": 1
+  },
+  {
+    "name": "available",
+    "frequency": 1
+  },
+  {
+    "name": "obtained",
+    "frequency": 1
+  },
+  {
+    "name": "mains.",
+    "frequency": 1
+  },
+  {
+    "name": "e-mail",
+    "frequency": 1
+  },
+  {
+    "name": "gmail.com",
+    "frequency": 1
+  },
+  {
+    "name": "email",
+    "frequency": 1
+  },
+  {
+    "name": "against",
+    "frequency": 1
+  },
+  {
+    "name": "traineeship",
+    "frequency": 1
+  },
+  {
+    "name": "aims",
+    "frequency": 1
+  },
+  {
+    "name": "teamlease",
+    "frequency": 1
+  },
+  {
+    "name": "teamlease.com",
+    "frequency": 1
+  },
+  {
+    "name": "mail",
+    "frequency": 1
+  },
+  {
+    "name": "rangshaipet",
+    "frequency": 1
+  },
+  {
+    "name": "failing",
+    "frequency": 1
+  },
+  {
+    "name": "failure",
+    "frequency": 1
+  },
+  {
+    "name": "raising",
+    "frequency": 1
+  },
+  {
+    "name": "unfair",
+    "frequency": 1
+  },
+  {
+    "name": "entail",
+    "frequency": 1
+  },
+  {
+    "name": "paid",
+    "frequency": 1
+  },
+  {
+    "name": "mumbai",
+    "frequency": 1
+  },
+  {
+    "name": "contained",
+    "frequency": 1
+  },
+  {
+    "name": "claimed",
+    "frequency": 1
+  },
+  {
+    "name": "entertainment",
+    "frequency": 1
+  },
+  {
+    "name": "certain",
+    "frequency": 1
+  },
+  {
+    "name": "chaitanya",
+    "frequency": 1
+  },
+  {
+    "name": "e-mails",
+    "frequency": 1
+  },
+  {
+    "name": "mails",
+    "frequency": 1
+  },
+  {
+    "name": "streamline",
+    "frequency": 1
+  },
+  {
+    "name": "sustainability",
+    "frequency": 1
+  },
+  {
+    "name": "maintenance",
+    "frequency": 1
+  },
+  {
+    "name": "details.",
+    "frequency": 1
+  },
+  {
+    "name": "pertaining",
+    "frequency": 1
+  },
+  {
+    "name": "waiting",
+    "frequency": 1
+  },
+  {
+    "name": "plain",
+    "frequency": 1
+  },
+  {
+    "name": "raised",
+    "frequency": 1
+  },
+  {
+    "name": "hair.",
+    "frequency": 1
+  },
+  {
+    "name": "contain",
+    "frequency": 1
+  },
+  {
+    "name": "attain",
+    "frequency": 1
+  },
+  {
+    "name": "affairs",
+    "frequency": 1
+  },
+  {
+    "name": "obtain",
+    "frequency": 1
+  },
+  {
+    "name": "chennai",
+    "frequency": 1
+  },
+  {
+    "name": "chennai.",
+    "frequency": 1
+  },
+  {
+    "name": "kuwait",
+    "frequency": 1
+  },
+  {
+    "name": "bahrain",
+    "frequency": 1
+  },
+  {
+    "name": "thailand",
+    "frequency": 1
+  }
+]

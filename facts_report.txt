@@ -1,0 +1,62 @@
+
+Scanning documents...
+Scanning memories...
+Scanning OCR...
+
+===================================
+FACT EXTRACTION COMPLETE
+===================================
+FACTS: 6498
+
+TOP FACTS
+
+Manidhar | BUILT | Found the Unfindable | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | AI-powered Supply Chain Automation System | 0.9
+Manidhar | BUILT | Found the Unfindable | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Lime IoT ML Platform | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | Found the Unfindable | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Lime IoT ML Platform | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | Found the Unfindable | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | AI-powered Supply Chain Automation System | 0.9
+Manidhar | BUILT | Found the Unfindable | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Lime IoT ML Platform | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | Found the Unfindable | 0.9
+Manidhar | BUILT | Janani | 0.9
+Manidhar | BUILT | Lime IoT ML Platform | 0.9
+Manidhar | BUILT | MW.AI | 0.9
+Manidhar | BUILT | Janani | 0.9
