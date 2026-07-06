@@ -88,6 +88,34 @@ def search_documents(query: str, limit: int = 5):
 
     return [dict(row) for row in rows]
 
+def search_screenshots(query, limit=5):
+
+    conn = get_connection()
+
+    try:
+
+        rows = conn.execute(
+            """
+            SELECT
+                file_path,
+                raw_text,
+                created_at
+            FROM ocr_records
+            WHERE lower(raw_text) LIKE ?
+            LIMIT ?
+            """,
+            (f"%{query.lower()}%", limit)
+        ).fetchall()
+
+        conn.close()
+
+        return [dict(r) for r in rows]
+
+    except Exception:
+
+        conn.close()
+
+        return []
 
 @app.get("/")
 def root():
@@ -426,6 +454,70 @@ def search_founder_truth(query):
             return dict(row)
 
     return None
+
+@app.get("/api/screenshots")
+def get_screenshots(year: str = None, limit: int = 50):
+
+    conn = get_db()
+
+    sql = """
+    SELECT
+        file_path,
+        substr(raw_text,1,300) as preview,
+        created_at
+    FROM ocr_records
+    """
+
+    params = []
+
+    if year:
+        sql += " WHERE file_path LIKE ? "
+        params.append(f"%{year}%")
+
+    sql += """
+    ORDER BY file_path
+    LIMIT ?
+    """
+
+    params.append(limit)
+
+    rows = conn.execute(sql, params).fetchall()
+
+    conn.close()
+
+    return {
+        "count": len(rows),
+        "items": [dict(r) for r in rows]
+    }
+
+@app.get("/api/timeline")
+def timeline():
+
+    conn = get_db()
+
+    years = ["2022","2023","2024","2025","2026"]
+
+    result = []
+
+    for year in years:
+
+        count = conn.execute(
+            """
+            SELECT COUNT(*)
+            FROM ocr_records
+            WHERE file_path LIKE ?
+            """,
+            (f"%{year}%",)
+        ).fetchone()[0]
+
+        result.append({
+            "year": year,
+            "screenshots": count
+        })
+
+    conn.close()
+
+    return result
 
 if __name__ == "__main__":
     import uvicorn
