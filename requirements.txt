@@ -2,3 +2,9 @@ fastapi
 uvicorn[standard]
 pydantic
 python-multipart
+requests
+rapidfuzz
+rich
+numpy
+pandas
+python-dotenv
